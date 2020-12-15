@@ -60,9 +60,9 @@ Below is a list of all the scripts this template has available:
 | `pdevs`                   | Runs all watch tasks (TypeScript, Sass, Node). Use this if you're not touching static assets.     |
 
 
-#Enviroment-Setup
+# Enviroment-Setup
 Update the constraint provided in .env file.
 
-#Dependencies
+# Dependencies
 Dependencies are managed through `package.json`.
 
