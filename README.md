@@ -55,9 +55,9 @@ Below is a list of all the scripts this template has available:
 | Npm Script | Description |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
 | `start`                   | Does the same as 'npm run serve'. Can be invoked with `npm start`                                 |
-| `build`                   | Full build. Runs ALL build tasks (`build-sass`, `build-ts`, `lint`, `copy-static-assets`)       |
-| `devs`              | Runs node with nodemon so the process restarts if it crashes. Used in the main watch task         |
-| `pdevs`                   | Runs all watch tasks (TypeScript, Sass, Node). Use this if you're not touching static assets.     |
+| `build`                   | Full build. Runs ALL build tasks ( `build-ts`, `lint`, `copy-static-assets`)       |
+| `dev`              | Runs node with nodemon so the process restarts if it crashes. Used in the main watch task         |
+| `watch`                   | Runs all watch tasks (TypeScript, Sass, Node). Use this if you're not touching static assets.     |
 
 # Dependencies
 Dependencies are managed through `package.json`.

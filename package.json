@@ -13,11 +13,11 @@
     "tsc": "tsc",
     "build": "npm-run-all clean lint tsc copy-assets",
     "dev:start": "npm-run-all build start",
-    "dev": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
+    "dev-start": "nodemon --watch src -e ts,ejs --exec npm run dev:start",
     "start": "node ./dist/src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devs": "nodemon ./dist/src/app.js",
-    "pdevs": "tsc -p . -w"
+    "dev": "nodemon ./dist/src/app.js",
+    "watch": "tsc -p . -w"
   },
   "author": "",
   "license": "ISC",
