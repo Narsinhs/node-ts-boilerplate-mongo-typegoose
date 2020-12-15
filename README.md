@@ -8,21 +8,8 @@ It is not a goal to be a comprehensive and definitive guide to making a TypeScri
 
 - [Pre-reqs](#pre-reqs)
 - [Getting started](#getting-started)
-- [Deploying the app](#deploying-the-app)
-	- [Pre-reqs](#pre-reqs-1)
-	- [Deploying to Azure App Service](#deploying-to-azure-app-service)
-- [TypeScript + Node](#typescript--node)
-	- [Getting TypeScript](#getting-typescript)
-	- [Project Structure](#project-structure)
-	- [Building the project](#building-the-project)
-	- [Type Definition (`.d.ts`) Files](#type-definition-dts-files)
-	- [Debugging](#debugging)
-	- [Testing](#testing)
-	- [ESLint](#eslint)
 - [Dependencies](#dependencies)
-	- [`dependencies`](#dependencies-1)
-	- [`devDependencies`](#devdependencies)
-- [Hackathon Starter Project](#hackathon-starter-project)
+- [Enviroment-Setup](#Enviroment-Setup)
 
 # Pre-reqs
 To build and run this app locally you will need a few things:
@@ -73,9 +60,9 @@ Below is a list of all the scripts this template has available:
 | `pdevs`                   | Runs all watch tasks (TypeScript, Sass, Node). Use this if you're not touching static assets.     |
 
 
-### Enviroment Setup
+#Enviroment-Setup
 Update the constraint provided in .env file.
 
-# Dependencies
+#Dependencies
 Dependencies are managed through `package.json`.
 
