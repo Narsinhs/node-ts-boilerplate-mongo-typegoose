@@ -22,7 +22,7 @@ To build and run this app locally you will need a few things:
 - Clone the repository
 ```
 git clone --depth=1 https://github.com/Narsinhs/node-ts-boilerplate.git <project_name>
-
+```
 - Install dependencies
 ```
 cd <project_name>
