@@ -59,10 +59,9 @@ Below is a list of all the scripts this template has available:
 | `devs`              | Runs node with nodemon so the process restarts if it crashes. Used in the main watch task         |
 | `pdevs`                   | Runs all watch tasks (TypeScript, Sass, Node). Use this if you're not touching static assets.     |
 
+# Dependencies
+Dependencies are managed through `package.json`.
 
 # Enviroment-Setup
 Update the constraint provided in .env file.
-
-# Dependencies
-Dependencies are managed through `package.json`.
 
