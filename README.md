@@ -63,5 +63,5 @@ Below is a list of all the scripts this template has available:
 Dependencies are managed through `package.json`.
 
 # Enviroment-Setup
-Update the constraint provided in .env file.
+Update the constraint provided in .env file
 
